@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   }
+  body{
+  color: white;
+
+  }
   header{
   background-image: url('/assets/images/Rectangle\ 4.png');
   height: 100vh;
@@ -57,6 +61,25 @@ justify-content: center;
   padding: 15px 20px;
 }
 
+.main{
+border: 2px solid red;
+margin: 50px 100px 0 100px;
+padding: 20px;
+}
+
+.main .title{
+font-weight: 500;
+font-size: 48px;
+line-height: 57px;
+margin-bottom: 15px;
+}
+
+.main .paragraph{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
 
 .imagem-absoluta{
 position: absolute;
