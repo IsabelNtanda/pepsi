@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  header{
+  background-image: url('/assets/images/Rectangle\ 4.png');
+  height: 100vh;
+  position: relative;
+  padding: 110px 0 ;
+  }
+  header .header_img{
+  position: absolute;
+  bottom:30px;
+  left:30px;
+  }
+  .clone{
+  width: 1150px;
+  height: 650px;
+  margin: auto;
+  background-color: #070A4E;
+  box-shadow: 0px 4px 50px #000000;
+  border-radius: 20px;
+  position: relative;
+  }
+  nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  }
+  nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0 35px;
+  }
+
+nav ul a{
+color: white;
+text-decoration: none;
+padding:10px;
+text-transform: uppercase;
+}
+
+.logo{
+margin: 0 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.link{
+  border: 2px solid #FFFFFF;
+  border-radius: 50px;
+  padding: 15px 20px;
+}
+
+
+.imagem-absoluta{
+position: absolute;
+bottom: 0;
+right: 0;
+border-bottom-right-radius: 20px;
+}
