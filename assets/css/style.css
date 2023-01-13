@@ -15,11 +15,13 @@ body {
   color: white;
   font-family: "Rubik", sans-serif;
   font-size: 1.6rem;
+  overflow-y: hidden;
 }
 .logo {
   margin-top: 1.5rem;
+
 }
-header {
+main {
   width: 100%;
   height: 100vh;
   background-color: #070a4e;
@@ -27,7 +29,7 @@ header {
 }
 nav {
   display: flex;
- justify-content: space-around;
+ justify-content: space-between;
   align-items: center;
   padding: 0 5rem;
 }
@@ -58,7 +60,7 @@ nav #menu {
 }
 
 .content-left{
-width: 70%;
+width: 80%;
 }
 .content-left .title {
   font-weight: 500;
@@ -132,9 +134,8 @@ font-size: 1.2rem;
 text-transform: uppercase;
 margin-top: 5rem;
 display:inline-block;
-
-
 }
+
 /*Redes sociais*/
 .links-sociais {
   display: flex;
