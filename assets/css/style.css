@@ -27,7 +27,7 @@ header {
 }
 nav {
   display: flex;
-  justify-content: space-between;
+ justify-content: space-around;
   align-items: center;
   padding: 0 5rem;
 }
@@ -54,9 +54,12 @@ nav #menu {
 .content {
   margin: 50px 100px 0 100px;
   padding: 20px;
-  border: 2px solid red;
+  display: flex;
 }
 
+.content-left{
+width: 70%;
+}
 .content-left .title {
   font-weight: 500;
   font-size: 4.8rem;
@@ -68,6 +71,7 @@ nav #menu {
   line-height: 24px;
 }
 .content-left h2 {
+  font-size: 2rem;
   margin-top: 3rem;
   text-transform: uppercase;
   font-style: normal;
@@ -108,11 +112,43 @@ nav #menu {
   padding: 1rem;
   text-align: center;
 }
-.card p{
+.card p {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 28px;
+}
+.buy_now{
+margin-top: 2rem;
+line-height: 24px;
+}
+.buy_now a{
+text-decoration:none;
+color: white;
+border: 2px solid white;
+border-radius: 50px;
+padding:1.3rem 5rem;
+font-size: 1.2rem;
+text-transform: uppercase;
+margin-top: 5rem;
+display:inline-block;
+
+
+}
+/*Redes sociais*/
+.links-sociais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  position: absolute;
+  left: 26px;
+  top: 330px;
+}
+
+.links-sociais img {
+  width: 20px;
+  height: 20px;
 }
 .image-absolute-right img {
   position: absolute;
